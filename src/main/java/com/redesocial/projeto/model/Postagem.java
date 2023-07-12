@@ -68,6 +68,15 @@ public class Postagem {
 	public void setImagem(String imagem) {
 		this.imagem = imagem;
 	}
+
+	public Tema getTema() {
+		return tema;
+	}
+
+	public void setTema(Tema tema) {
+		this.tema = tema;
+	}
+	
 	
 	
 }
